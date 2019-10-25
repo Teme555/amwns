@@ -17,7 +17,7 @@
         var objIMG = new Image();
         var startTime = new Date();
         objIMG.onload = objIMG.onerror = function() {
-            var delay = new Date() - startTime + 9;
+            var delay = new Date()  + 5;
             domainarr.push({ times: delay, domain: url });
             checkedNum++;
         };
