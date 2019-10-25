@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>澳门威尼斯人</title>
+    <link rel="icon" href="./images/logo.png" />
+    <link href="css/global.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <a class="nav-link txt-ct" onclick="window.main.addFavorite()">加入收藏</a> |
+            <a class="nav-link txt-ct" onclick="window.main.setHome(this)">设为首页</a> |
+            <a class="nav-link txt-ct" onclick="window.location.reload();">刷新页面</a>
+        </div>
+        <div class="content">
+            <p class="tip">* 延迟数值越小的网址,访问就越流畅</p>
+            <div class="site-box">
+                <div class="site-list">
+                    <div class="site site-1">
+                        <div class="rh"><span class="name"></span><span class="time">90ms</span></div>
+                        <a class="site-link" target="_blank"></a>
+                    </div>
+                    <div class="site site-2">
+                        <div class="rh"><span class="name"></span><span class="time">90ms</span></div>
+                        <a class="site-link" target="_blank"></a>
+                    </div>
+                    <div class="site site-3">
+                        <div class="rh"><span class="name"></span><span class="time">90ms</span></div>
+                        <a class="site-link" target="_blank"></a>
+                    </div>
+                </div>
+                <a class="re-dectection" onclick="main.reDectection()"></a>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="link">
+        <div class="link-con">
+            <div class="link-mail">
+                威尼斯人邮箱：
+                <span> wnsc988@gmail.com</span>
+            </div>
+            <div class="link-qq">
+                威尼斯人官方QQ：
+                <span>284438801</span>
+            </div>
+            <div class="link-service">
+                <a target="_blank" href="https://admin-ahu.github.io/JS_wns/index.html">7×24小时 在线客服</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        Copyright © 威尼斯人 Reserved
+    </div>
+    <script>
+        if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+            window.location.href = "mobile.html";
+        }
+    </script>
+    <script src="js/zepto.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
